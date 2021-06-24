@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Numeros_Factoriales.dir/objects.a
+C:\Mingw64\mingw64\bin\ar.exe cr CMakeFiles\Numeros_Factoriales.dir/objects.a @CMakeFiles\Numeros_Factoriales.dir\objects1.rsp
+C:\Mingw64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Numeros_Factoriales.dir/objects.a -Wl,--no-whole-archive -o Numeros_Factoriales.exe -Wl,--out-implib,libNumeros_Factoriales.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Numeros_Factoriales.dir\linklibs.rsp
